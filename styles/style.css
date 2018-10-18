@@ -1,33 +1,69 @@
+html {
+	font-family: 'Muli', sans-serif;
+}
+
+body {
+	margin: 0 auto;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 100;
+	font-size: 300%;
+}
+
 .lakecard {
+	font-size: large;
+	text-align: center;
 	max-width: 900px;
 	width: 90%;
-	margin: 50px auto;
-	border: 1px solid black;
+	margin: 100px auto;
+	border: 1px solid silver;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .lakename {
 	text-align: center;
-	border: 1px solid black;
-}
-
-.lakestatline {
-	text-align: center;
-	border: 1px solid black;
+	border-bottom: 1px solid silver;
+	grid-column: 1 / 5;
+	grid-row: 1;
 }
 
 .lakeelevation {
-	width: 250px;
-	display: inline;
-	border: 1px solid black;
-
+	grid-column: 1 / 2;
+	grid-row: 2;
+	border-bottom: 1px solid silver;
+	border-right: 1px solid silver;
 }
 
 .lakesize {
-	display: inline;
-	width: 25%;
+	grid-column: 2 / 3;
+	grid-row: 2;
+	border-bottom: 1px solid silver;
+	border-right: 1px solid silver;
 }
 
 .lakelatlon {
-	display: inline;
-	width: 50%;
+	grid-column: 3 / 5;
+	grid-row: 2;
+	border-bottom: 1px solid silver;
+}
+
+.lakeoutline {
+	grid-column: 1 / 3;
+	grid-row: 3;
+	border-bottom: 1px solid silver;
+	border-right: 1px solid silver;
+}
+
+.lakemap {
+	grid-column: 3 / 5;
+	grid-row: 3;
+	border-bottom: 1px solid silver;
+}
+
+.lakedrainagetree {
+	grid-column: 1 / 5;
+	grid-row: 4;
 }
