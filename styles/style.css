@@ -1,0 +1,33 @@
+.lakecard {
+	max-width: 900px;
+	width: 90%;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+.lakename {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.lakestatline {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.lakeelevation {
+	width: 250px;
+	display: inline;
+	border: 1px solid black;
+
+}
+
+.lakesize {
+	display: inline;
+	width: 25%;
+}
+
+.lakelatlon {
+	display: inline;
+	width: 50%;
+}
