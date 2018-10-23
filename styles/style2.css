@@ -50,6 +50,7 @@ header {
 .mainstage {
 	width: 100%;
 	background-color: white;
+	padding: 5px 0 5px 0;
 }
 
 /** Lakecard grid and display styles **/
@@ -62,10 +63,9 @@ header {
 	width: 90%;
 	max-width: 1800px;
 
-	margin: 0 auto;
+	margin: auto;
 	background-color: white;
-	border-right: 1px solid #e6e6e6;
-	border-left: 1px solid #e6e6e6;
+	border: 1px solid #e6e6e6;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -96,6 +96,11 @@ header {
 	border-bottom: 1px solid #e6e6e6;
 	grid-column: 1 / 5;
 	grid-row: 1
+}
+
+.lakename img {
+	height: 1em;
+	vertical-align: -.15em;
 }
 
 .elevation {
@@ -170,6 +175,11 @@ header {
 	font-weight: 600;
 	grid-column: 2 / 5;
 	grid-row: 5;
+}
+
+.lakedrainagetree img {
+	height: 1em;
+	vertical-align: -.15em;
 }
 
 /** Footer Styles **/
