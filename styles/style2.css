@@ -45,6 +45,14 @@ header {
 	color: red;
 }
 
+/** Lake Image display 
+
+.lakeimg {
+	border: 1px solid red;
+
+}
+**/
+
 /** Lakecard grid and display styles **/
 
 .lakecard {
@@ -53,11 +61,22 @@ header {
 	text-align: center;
 
 	width: 90%;
+
 	margin: 0 auto;
 
 	border: 1px solid #e6e6e6;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.lakeimg {
+	grid-column: 1 / 5;
+	grid-row: 2;
+	padding: 10px 10px 5px 10px;
+}
+
+.lakeimg img {
+	width: 100%;
 }
 
 .lakename {
@@ -67,7 +86,7 @@ header {
 	text-transform: uppercase;
 	border-bottom: 1px solid #e6e6e6;
 	grid-column: 1 / 5;
-	grid-row: 1;
+	grid-row: 1
 }
 
 .elevation {
