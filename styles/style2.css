@@ -4,6 +4,7 @@ html {
 
 body {
 	margin: 0 auto;
+	background-color: #e6e6e6;
 }
 
 h2 {
@@ -46,13 +47,10 @@ header {
 	color: red;
 }
 
-/** Lake Image display 
-
-.lakeimg {
-	border: 1px solid red;
-
+.mainstage {
+	width: 100%;
+	background-color: white;
 }
-**/
 
 /** Lakecard grid and display styles **/
 
@@ -65,7 +63,7 @@ header {
 	max-width: 1800px;
 
 	margin: 0 auto;
-
+	background-color: white;
 	border-right: 1px solid #e6e6e6;
 	border-left: 1px solid #e6e6e6;
 	display: grid;
@@ -75,11 +73,19 @@ header {
 .lakeimg {
 	grid-column: 1 / 5;
 	grid-row: 2;
-	padding: 10px 10px 5px 10px;
+	padding: 10px 10px 0px 10px;
 }
 
 .lakeimg img {
 	width: 100%;
+}
+
+.lakeimgdetails {
+	font-size: small;
+	font-weight: 600;
+	grid-column: 1 / 5;
+	grid-row: 3;
+	padding-bottom: 5px;
 }
 
 .lakename {
@@ -170,7 +176,7 @@ header {
 
 .bottombar {
 	width: 100%;
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-bottom: 5px;
 	background-color: #e6e6e6;
 	border-top: 1px solid #b3b3b3;
