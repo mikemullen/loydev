@@ -15,8 +15,8 @@ h2 {
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #e6e6e6;
-	border-bottom: 1px solid #b3b3b3;
+	background-color: white;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 header {
@@ -189,7 +189,7 @@ header {
 	padding-top: 15px;
 	padding-bottom: 5px;
 	background-color: #e6e6e6;
-	border-top: 1px solid #b3b3b3;
+
 }
 
 footer {
