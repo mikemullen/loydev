@@ -1,5 +1,6 @@
 html {
 	font-family: 'Muli', sans-serif;
+	color: #585858;
 }
 
 body {
@@ -24,14 +25,15 @@ header {
 	max-width: 1800px;
 	margin: auto;
 	position: relative;
+		font-weight: 600;
 }
 
 
 .logo {
-	font-weight: 600;
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font-size: xx-large;
+	color: #7bbceb;
 }
 
 .mainnav {
@@ -41,16 +43,58 @@ header {
 	bottom: 5px;
 }
 
-.mainnav a {
+a {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: red;
+}
+
+a:link {
+	color: #585858;
+}
+
+a:visited {
+	color: #585858;
+}
+
+a:focus {
+	color: #7bbceb;
+}
+
+a:hover {
+	color: #7bbceb;
 }
 
 .mainstage {
 	width: 100%;
 	background-color: white;
 	padding: 5px 0 5px 0;
+}
+
+/** Main map homepage styles **/
+
+.mainmap {
+	width: 90%;
+	max-width: 1800px;
+	margin: auto;
+	border: 0px solid #e6e6e6;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.introline {
+	
+	font-weight: 100;
+}
+
+.mapsidebar {
+	grid-column: 4 / 6;
+	grid-row: 1;
+	text-align: right;
+}
+
+.fullmapimg {
+	grid-column: 1 / 4;
+	grid-row: 1;
 }
 
 /** Lakecard grid and display styles **/
@@ -95,7 +139,8 @@ header {
 	text-transform: uppercase;
 	border-bottom: 1px solid #e6e6e6;
 	grid-column: 1 / 5;
-	grid-row: 1
+	grid-row: 1;
+	color: #585858;
 }
 
 .lakename img {
@@ -199,6 +244,10 @@ footer {
 	position: relative;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer a {
+	text-transform: none;
 }
 
 .footdate {
